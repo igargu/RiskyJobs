@@ -1,0 +1,42 @@
+form{
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #327da8;
+    color: #ffffff;
+    left:0px;
+    right: 0px;
+    top: 0px;
+}
+
+.logo{
+    align-self: flex;
+    font-family: Trattatello, fantasy;
+    font-size: 1.5em;
+    margin-left: -30%;
+    margin-right: 25%;
+}
+
+input[type=submit] {
+  background-color: #ffffff;
+  border: none;
+  color: #327da8;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.table{
+    position: relative;
+    width: 1500px;
+    font-size: 1.5em;
+    text-align:center;
+}
